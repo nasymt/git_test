@@ -7,9 +7,24 @@
 //
 
 #include <iostream>
+using namespace std;
+
+class myclass{
+    int a;
+    public:
+    myclass(int x);
+    int get();
+};
+
+myclass::myclass(int x){
+    a = x;
+}
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    cout << "Hello, World!\n";
+    
+    
     return 0;
 }
